@@ -1,0 +1,365 @@
+{
+  "peyman_pn_customers": [
+    {
+      "id": "C-1791450098916",
+      "name": "عبدلهی",
+      "phone": "0912111111",
+      "city": "تهران",
+      "address": "شاتره",
+      "balance": -9601064,
+      "createdAt": "۱۴۰۵/۰۷/۱۶"
+    }
+  ],
+  "peyman_pn_customer_tx": [
+    {
+      "id": "CTX-1792847777050",
+      "customerId": "C-1791450098916",
+      "type": "PAYMENT_CASH",
+      "amount": 999999,
+      "date": "۱۴۰۵/۰۸/۰۲",
+      "receiptUrl": "http://localhost:4000/uploads/receipt-1792847776874-308174769.png",
+      "description": "دریافت نقدی / حواله"
+    },
+    {
+      "id": "CTX-1792847381438",
+      "customerId": "C-1791450098916",
+      "type": "PAYMENT_CASH",
+      "amount": 100000,
+      "date": "۱۴۰۵/۰۸/۰۲",
+      "description": "دریافت نقدی / حواله"
+    },
+    {
+      "id": "CTX-1792846699757",
+      "customerId": "C-1791450098916",
+      "type": "PAYMENT_CASH",
+      "amount": 10000000,
+      "date": "۱۴۰۵/۰۸/۰۲",
+      "description": "دریافت نقدی / حواله"
+    },
+    {
+      "id": "CTX-1792846272602",
+      "customerId": "C-1791450098916",
+      "type": "PAYMENT_CHECK",
+      "amount": 65,
+      "date": "۱۴۰۵/۰۸/۰۲",
+      "checkNumber": "76787",
+      "checkBank": "34534",
+      "checkDueDate": "۱۴۰۵/۰۸/۰۲",
+      "checkStatus": "PENDING",
+      "description": "دریافت چک صیادی"
+    },
+    {
+      "id": "CTX-1792846272601",
+      "customerId": "C-1791450098916",
+      "type": "PAYMENT_CASH",
+      "amount": 1000,
+      "date": "۱۴۰۵/۰۸/۰۲",
+      "description": "دریافت نقدی / کارت به کارت"
+    },
+    {
+      "id": "CTX-1791450751190",
+      "customerId": "C-1791450098916",
+      "type": "PAYMENT_CHECK",
+      "amount": 10000000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "checkNumber": "56445",
+      "checkBank": "ملت",
+      "checkDueDate": "۱۴۰۵/۰۷/۱۶",
+      "checkStatus": "CLEARED",
+      "description": "دریافت چک"
+    },
+    {
+      "id": "CTX-1791450325156",
+      "customerId": "C-1791450098916",
+      "type": "INVOICE",
+      "amount": 1500000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "invoiceNo": "2403",
+      "description": "فاکتور فروش 2403"
+    },
+    {
+      "id": "CTX-1791450098918",
+      "customerId": "C-1791450098916",
+      "type": "INVOICE",
+      "amount": 10000000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "description": "مانده بدهی اولیه از قبل"
+    }
+  ],
+  "peyman_pn_purchases": [],
+  "peyman_pn_products": [
+    {
+      "id": "P-1791449968373",
+      "code": "PN-440",
+      "name": "دسته موتور الوند",
+      "price": 1500000,
+      "quantity": 299,
+      "minStock": 50,
+      "unit": "عدد",
+      "lastEntryDate": "۱۴۰۵/۰۷/۱۶",
+      "lastExitDate": "۱۴۰۵/۰۷/۱۶"
+    }
+  ],
+  "peyman_pn_inventory_logs": [
+    {
+      "id": "LOG-1791450325152-7adp",
+      "productId": "P-1791449968373",
+      "productName": "دسته موتور الوند",
+      "type": "OUT",
+      "amount": 1,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "note": "فاکتور فروش شماره 2403 (عبدلهی)"
+    },
+    {
+      "id": "LOG-1791449968374",
+      "productId": "P-1791449968373",
+      "productName": "دسته موتور الوند",
+      "type": "IN",
+      "amount": 300,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "note": "موجودی اولیه هنگام تعریف قطعه"
+    },
+    {
+      "id": "LOG-1791382062534-mzwl",
+      "productId": "P-1791135700755",
+      "productName": "fghfhfhذللللللللللللللللللللللللللل",
+      "type": "OUT",
+      "amount": 1,
+      "date": "۱۴۰۵/۰۷/۱۵",
+      "note": "فاکتور فروش شماره 2402 (فروشگاه یدک گستر (احمدی))"
+    },
+    {
+      "id": "LOG-1791378199055-vblq",
+      "productId": "P-1791135700755",
+      "productName": "fghfhfh",
+      "type": "OUT",
+      "amount": 50,
+      "date": "۱۴۰۵/۰۷/۱۵",
+      "note": "خروج قطعه از انبار"
+    },
+    {
+      "id": "LOG-1791136618555-m0xa",
+      "productId": "P-1791135700755",
+      "productName": "fghfhfh",
+      "type": "OUT",
+      "amount": 1,
+      "date": "۱۴۰۵/۰۷/۱۲",
+      "note": "کسر خودکار بابت فاکتور فروش شماره 2401 (فروشگاه یدک گستر (احمدی))"
+    },
+    {
+      "id": "LOG-1791136513261-ab59",
+      "productId": "P-1791135700755",
+      "productName": "fghfhfh",
+      "type": "OUT",
+      "amount": 10,
+      "date": "۱۴۰۵/۰۷/۱۲",
+      "note": "کسر خودکار بابت فاکتور فروش شماره 2400 (بازرگانی قطعات حسنی)"
+    },
+    {
+      "id": "LOG-1791135700756",
+      "productId": "P-1791135700755",
+      "productName": "fghfhfh",
+      "type": "IN",
+      "amount": 100,
+      "date": "۱۴۰۵/۰۷/۱۲",
+      "note": "موجودی اولیه هنگام تعریف قطعه"
+    },
+    {
+      "id": "LOG-1791047943837",
+      "productId": "P-1791047943836",
+      "productName": "boosh",
+      "type": "IN",
+      "amount": 10,
+      "date": "۱۴۰۵/۰۷/۱۱",
+      "note": "موجودی اولیه هنگام تعریف قطعه"
+    },
+    {
+      "id": "LOG-1790962739613",
+      "productId": "P-1790962739613",
+      "productName": "کیرخر",
+      "type": "IN",
+      "amount": 1000,
+      "date": "۱۴۰۵/۰۷/۱۰",
+      "note": "موجودی اولیه هنگام تعریف قطعه"
+    }
+  ],
+  "peyman_pn_admin_credentials": {
+    "id": "PN-01",
+    "username": "peymann",
+    "fullName": "مدیریت گروه صنعتی پیمان",
+    "role": "مدیر کل و حسابداری",
+    "password": "123456"
+  },
+  "peyman_pn_bank_info": {
+    "bankName": "بانک ملت - شعبه مرکزی صنعت",
+    "accountOwner": "گروه صنعتی پیمان (حسنی)",
+    "cardNumber": "۶۱۰۴ - ۳۳۷۸ - ۹۱۲۰ - ۴۴۵۵",
+    "shabaNumber": "IR820120000000009876543210",
+    "balance": 322500000
+  },
+  "peyman_pn_sales_invoices": [
+    {
+      "invoiceNo": "2403",
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "customerId": "C-1791450098916",
+      "customerName": "عبدلهی",
+      "byPerson": "مدیریت گروه صنعتی پیمان",
+      "customerAddress": "تهران - شاتره",
+      "customerPhone": "0912111111",
+      "items": [
+        {
+          "productId": "P-1791449968373",
+          "productName": "دسته موتور الوند",
+          "unit": "عدد",
+          "quantity": 1,
+          "unitPrice": 1500000,
+          "totalPrice": 1500000
+        }
+      ],
+      "subTotal": 1500000,
+      "discount": 0,
+      "finalAmount": 1500000,
+      "amountInWords": "یک میلیون و پانصد هزار تومان",
+      "id": "INV-1791450325158"
+    },
+    {
+      "invoiceNo": "2402",
+      "date": "۱۴۰۵/۰۷/۱۵",
+      "customerId": "C-101",
+      "customerName": "فروشگاه یدک گستر (احمدی)",
+      "byPerson": "ل",
+      "customerAddress": "تهران - خیابان امیرکبیر، کوچه ناظم‌الاطبا، پلاک ۴۲",
+      "customerPhone": "09123456789",
+      "items": [
+        {
+          "productId": "P-1791135700755",
+          "productName": "fghfhfhذللللللللللللللللللللللللللل",
+          "unit": "بسته",
+          "quantity": 1,
+          "unitPrice": 450000,
+          "totalPrice": 450000
+        }
+      ],
+      "subTotal": 450000,
+      "discount": 0,
+      "finalAmount": 450000,
+      "amountInWords": "چهارصد و پنجاه هزار تومان",
+      "id": "INV-1791382062537"
+    },
+    {
+      "invoiceNo": "2401",
+      "date": "۱۴۰۵/۰۷/۱۲",
+      "customerId": "C-101",
+      "customerName": "فروشگاه یدک گستر (احمدی)",
+      "byPerson": "بل",
+      "customerAddress": "تهران - خیابان امیرکبیر، کوچه ناظم‌الاطبا، پلاک ۴۲",
+      "customerPhone": "09123456789",
+      "items": [
+        {
+          "productId": "P-1791135700755",
+          "productName": "fghfhfh",
+          "unit": "بسته",
+          "quantity": 1,
+          "unitPrice": 450000,
+          "totalPrice": 450000
+        }
+      ],
+      "subTotal": 450000,
+      "discount": 0,
+      "finalAmount": 450000,
+      "amountInWords": "چهارصد و پنجاه هزار تومان",
+      "id": "INV-1791136618559"
+    },
+    {
+      "invoiceNo": "2400",
+      "date": "۱۴۰۵/۰۷/۱۲",
+      "customerId": "C-102",
+      "customerName": "بازرگانی قطعات حسنی",
+      "byPerson": "علی",
+      "customerAddress": "اصفهان - بلوار شاپور جدید، مجتمع صنعتی امیر، پلاک ۱۲",
+      "customerPhone": "09131112233",
+      "items": [
+        {
+          "productId": "P-1791135700755",
+          "productName": "fghfhfh",
+          "unit": "بسته",
+          "quantity": 10,
+          "unitPrice": 450000,
+          "totalPrice": 4500000
+        }
+      ],
+      "subTotal": 4500000,
+      "discount": 0,
+      "finalAmount": 4500000,
+      "amountInWords": "چهار میلیون و پانصد هزار تومان",
+      "id": "INV-1791136513265"
+    }
+  ],
+  "peyman_pn_next_invoice_no": 2404,
+  "peyman_pn_bank_tx": [
+    {
+      "type": "IN",
+      "amount": 10000000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "title": "وصول چک صیادی شماره 56445 از عبدلهی",
+      "category": "واریزی مشتریان",
+      "id": "BTX-1791450796528"
+    },
+    {
+      "type": "IN",
+      "amount": 15000000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "title": "وصول چک صیادی شماره ۷۷۳۲۱۰۴۴ از بازرگانی قطعات حسنی",
+      "category": "واریزی مشتریان",
+      "id": "BTX-1791443490315"
+    },
+    {
+      "type": "IN",
+      "amount": 10000000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "title": "وصول چک صیادی شماره ۸۸۴۵۱۲۹۹ از فروشگاه یدک گستر (احمدی)",
+      "category": "واریزی مشتریان",
+      "id": "BTX-1791443486556"
+    },
+    {
+      "type": "IN",
+      "amount": 7000000,
+      "date": "۱۴۰۵/۰۷/۱۶",
+      "title": "وصول چک صیادی شماره 5434345 از فروشگاه یدک گستر (احمدی)",
+      "category": "واریزی مشتریان",
+      "id": "BTX-1791442939079"
+    },
+    {
+      "type": "IN",
+      "amount": 10000000,
+      "date": "۱۴۰۵/۰۷/۱۵",
+      "title": "وصول چک صیادی شماره 6755 از فروشگاه یدک گستر (احمدی)",
+      "category": "واریزی مشتریان",
+      "id": "BTX-1791383789537"
+    },
+    {
+      "id": "BTX-1",
+      "type": "IN",
+      "amount": 85000000,
+      "date": "۱۴۰۵/۰۷/۰۱",
+      "title": "شارژ اولیه و واریزی فروش قطعات",
+      "category": "واریزی مشتریان"
+    },
+    {
+      "id": "BTX-2",
+      "type": "OUT",
+      "amount": 47500000,
+      "date": "۱۴۰۵/۰۷/۰۳",
+      "title": "خرید ۵۰۰ کیلوگرم کائوچو و مواد اولیه لاستیک (فاکتور ۸۸۴۰)",
+      "category": "مواد اولیه"
+    },
+    {
+      "id": "BTX-3",
+      "type": "OUT",
+      "amount": 12000000,
+      "date": "۱۴۰۵/۰۷/۰۶",
+      "title": "خرید بوش فلزی داخل طبق و سرویس قالب‌ها (فاکتور ۱۲۰۵)",
+      "category": "خرید قطعه آماده"
+    }
+  ]
+}

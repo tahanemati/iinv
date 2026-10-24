@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "vazirmatn/Vazirmatn-font-face.css";
+
+@theme {
+  --font-sans: "Vazirmatn", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html,
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: "Vazirmatn", sans-serif !important;
+    /* این ویژگی باعث می‌شود تمام اعداد در فاکتورها و قیمت‌ها خودکار فارسی شوند */
+    font-feature-settings: "ss01";
+  }
+}
